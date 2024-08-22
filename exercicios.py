@@ -113,11 +113,13 @@ print(f"Quando aqui no Brasil está {temperatura_c} graus Celsius,eu agora sei q
 
 # 10.   Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
+import math
+
 print("Vamos calcular a área de um círculo ?")
 
 raio = float(input("Digite o raio do círculo: "))
 
-area = float(3.14 * raio * raio)
+area = float(math.pi * raio ** 2)
 
 print(f"A área de um círculo com raio de {raio} é {area}")
 
