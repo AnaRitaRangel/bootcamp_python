@@ -121,5 +121,52 @@ raio = float(input("Digite o raio do círculo: "))
 
 area = float(math.pi * raio ** 2)
 
-print(f"A área de um círculo com raio de {raio} é {area}")
+print(f"A área de um círculo com raio de {raio} é {area:.2f}")
+
+# 11.	Escreva um programa que receba uma string do usuário e a converta para maiúsculas
+
+nome = input("Digite qualquer frase em letras maiúsculas: ")
+
+print(f"Essa frase em letras minúsculas fica assim: {nome.lower()}")
+
+
+# 12.	Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+nome = input("Digite seu nome completo em letras minúsculas: ")
+
+print(f"Seu nome em letras maiúsculas fica assim: {nome.upper()}")
+
+
+# 13.	Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+frase = input("Digite qualquer frase: ")
+
+frase_editada = frase.strip()
+
+print(f"Essa frase sem espaços no início ou final fica assim: {frase.strip()}")
+
+
+# 14.	Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+data = input("digite a data do seu aniversário no formato dd/mm/aaaa")
+
+dia, mes, ano = data.split("/")
+print("Dia: ", dia)
+print("Mês: ", mes)
+print("Ano: ", ano)
+
+print(f"Você nasceu no dia {dia} do mês {mes} do ano de {ano}")
+
+
+
+# 15.	Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+print("Você conhece ditados populares ?")
+
+frase_1 = input("Digite a primeira parte do ditado popular: ")
+
+frase_2 = input("Digite a segunda parte do ditado popular: ")
+
+print(f"O ditado popular que você mencionou é {frase_1 +   frase_2}")
+
 

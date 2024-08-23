@@ -1,12 +1,10 @@
+# 15.	Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
+print("Você conhece ditados populares ?")
 
-import math
+frase_1 = input("Digite a primeira parte do ditado popular: ")
 
-print("Vamos calcular a área de um círculo ?")
+frase_2 = input("Digite a segunda parte do ditado popular: ")
 
-raio = float(input("Digite o raio do círculo: "))
-
-area = float(math.pi * raio ** 2)
-
-print(f"A área de um círculo com raio de {raio} é {area}")
+print(f"O ditado popular que você mencionou é {frase_1 +   frase_2}")
 
