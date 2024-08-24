@@ -37,21 +37,20 @@ mult = primeiro_numero * segundo_numero
 print(f"O resultado da multiplicação entre {primeiro_numero} e {segundo_numero} é igual a {mult}")
 
 
-# 4.	Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo
+# 4.    Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo
 
 print("Agora vamos nos divertir fazendo uma divisão ?")
 
 dividendo = int(input("Digite o número a ser dividido (dividendo) : "))
 
-divisor = int(input("Agora digite o número para dividir o anterior (divisor) : "))
+	divisor = int(input("Agora digite o número para dividir o anterior (divisor) : "))
 
 quociente = dividendo // divisor
 
 print(f"O resultado da divisão inteira entre {dividendo} e {divisor} é igual a {quociente}")
 
 
-
-# 5.	Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+# 5.    Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 numero = int(input("Digite um número inteiro: "))
 
@@ -169,4 +168,17 @@ frase_2 = input("Digite a segunda parte do ditado popular: ")
 
 print(f"O ditado popular que você mencionou é {frase_1 +   frase_2}")
 
+#16.	Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+
+#17.	Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+
+#18.	Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+
+#19.	Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+
+#20.	Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
