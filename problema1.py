@@ -6,7 +6,9 @@ try:
     divisor = int(input("Agora digite o número para dividir o anterior (divisor) : "))
     quociente = dividendo // divisor
     print(f"O resultado da divisão inteira entre {dividendo} e {divisor} é igual a {quociente}")
-except:ZeroDivisionError
+except ZeroDivisionError:
     print("integer division or modulo by zero")
+
+    
 
 ## PROBLEMA: Quando vou fazer try/except depois do except ele dá erro de indentação em baixo e se eu tiro a indentação ele dá o print do que não devia
